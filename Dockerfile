@@ -18,7 +18,6 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 # Install packages
 RUN \
     apt-get update && \
-    apt-get -y install \
-        ffmpeg && \
+    apt-get -y install ffmpeg && \
     rm -rf /tmp/* /var/lib/apt
 
