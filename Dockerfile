@@ -1,4 +1,4 @@
-FROM linuxserver/sonarr
+FROM linuxserver/sonarr:preview
 MAINTAINER noblekangaroo
 
 ARG BUILD_DATE
